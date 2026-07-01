@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6o0113/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 起信論同異集
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X45/X45n0759.xml
+    old_id: X45n0759
+hash: sha256:2ae1dc8784772add8424042bce73b044f4fca6dc2642a173a86c4c9f9d944339

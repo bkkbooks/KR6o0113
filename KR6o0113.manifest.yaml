@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR6o0113/v1
+canonical_location: https://kanripo.org/bkk/KR6o0113/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 起信論同異集
+  identifiers:
+    alt_id:
+    - X45n0759
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X45/X45n0759.xml
+    old_id: X45n0759
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0113_000.yaml, hash: 'sha256:2ae1dc8784772add8424042bce73b044f4fca6dc2642a173a86c4c9f9d944339'}
+  - {seq: 1, filename: KR6o0113_001.yaml, hash: 'sha256:ba06da61f048c9c6e73c5ddf9c566dc615455ce7ce6e5e874d5dce1706a4289c'}
+  - {seq: 2, filename: KR6o0113_002.yaml, hash: 'sha256:f266f0fe49241c123b42bd6129cf2d404a03c6954295f3c80fc3686eaeb0e10e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6o0113_001.markers.yaml, hash: 'sha256:83488ae99ad4be0c4303c82b94f2ac923fcf5f3a5940e5f6a0ac939980cd983f'}
+  - {seq: 2, role: markers, filename: assets/KR6o0113_002.markers.yaml, hash: 'sha256:e098b97d554b39bac684f7fe969cf7939c3fe94eec5b4b939481c34964036692'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0113_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 14420
+  label: '大乘起信論同異略集本
+
+    全述起信唯識二論同異耳'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6o0113_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 16010
+  label: 大乘起信論同異略集末
+  type: juan
+  level: 1
+hash: sha256:fc21026bb2b0b1b284c3324a509ba2b82b41e591c248c2784797e0a3751ae984
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
